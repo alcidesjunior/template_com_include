@@ -4,8 +4,9 @@
 	<title></title>
 </head>
 <body>
+<?php include "css.php";?>
 <!-- incluindo menu-->
-<?php include "menu.php";?>
+<?php include "menu.php";?><br><br><br>
 <!-- Estilize a parte de conteudo para ficar bonitinho.-->
 <div id="conteudo">
 <?php 
@@ -28,6 +29,8 @@ if(isset($_GET['pagina'])){
 }
 ?>
 </div>
+<div id="rodape">
 <?php include "rodape.php";?>
+</div>
 </body>
 </html>
